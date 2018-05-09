@@ -8,6 +8,7 @@ module.exports = (arg) => {
   return {
     wantlist: require('./wantlist')(send),
     stat: require('./stat')(send),
-    unwant: require('./unwant')(send)
+    unwant: require('./unwant')(send),
+    ledger: require('./ledger')(send)
   }
 }

@@ -5,7 +5,6 @@ const CID = require('cids')
 
 module.exports = (send) => {
   return promisify((args, opts, callback) => {
-
     if (typeof (args) === 'function') {
       callback = args
       opts = {}
